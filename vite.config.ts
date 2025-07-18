@@ -5,6 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/time-clock-pwa-go/", // 👈 Thêm dòng này ngay đây
+
   server: {
     host: "::",
     port: 8080,
